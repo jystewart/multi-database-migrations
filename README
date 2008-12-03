@@ -24,11 +24,11 @@ which should accept all the options of a normal migration generation, and
 
   rake db:multi:migrate DATABASE=xxxx
 
-===================
-FURTHER DEVELOPMENT
-===================
-
-A bit more flexibility around database names would be helpful.
+normally we would expect the database name to match rails' conventions, eg:
+  
+  rake db:multi:migrate DATABASE=myapp
+  
+would look for a database configuration of myapp_development. But if you specify a full database name, we will look for a configuration with a matching database name.
 
 ======
 CREDIT
