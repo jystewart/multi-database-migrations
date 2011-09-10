@@ -1,6 +1,17 @@
 A plugin to make it easier to host migrations for multiple databases in one rails app.
 
 =======
+WARNING
+=======
+
+This plugin is no longer maintained and will not work Rails 3 and onwards. 
+
+Chris Rohr has ported it to Rails 3 and you probably want to use his version:
+
+https://github.com/chrisrohr/multi-database-migrations
+
+
+=======
 CONCEPT
 =======
 
